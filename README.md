@@ -54,6 +54,23 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Webhook Payload Structure <a name="Webhook-Payload-Structure"></a>
+The following example payload shows a webhook update information at the end of a transaction:
+
+```sh
+{
+  "id": "1dd2854e-3a79-4548-ae36-97e4a18ebf81",
+  "amount": 100,
+  "currency": "ETB",
+  "created_at_time": 1673381836,
+  "timestamp": 1701272333,
+  "cause": "Testing",
+  "full_name": "Abebe Kebede",
+  "account_name": "abebekebede1",
+  "invoice_url": "https://yayawallet.com/en/invoice/xxxx"
+}
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
